@@ -26,4 +26,4 @@ jobs:
         cache: 'npm'
     - run: npm i
     - run: npm run build
-    - run: sudo mv ~/react-app/_work/create-react-app-github-action/create-react-app-github-action/build /var/www/html/
+    - run: sudo mv ~/react-app/_work/create-react-app-github-action/create-react-app-github-action/build/* /var/www/html/
